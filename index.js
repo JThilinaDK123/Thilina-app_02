@@ -21,7 +21,7 @@ const createAndSaveResponse = (apiResponse, done) => {
 
 // localhost:3000
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello From Thilina97" }');
+    res.send('{ "response": "Hello From Thilina" }');
 });
 
 app.get('/will', function (req, res) {
