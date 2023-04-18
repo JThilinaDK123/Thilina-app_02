@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8089
 
-CMD [ "node", "public/scripts/index.js" ]
+CMD [ "node", "index.js" ]
